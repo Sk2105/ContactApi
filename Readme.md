@@ -1,12 +1,12 @@
 # Contact Api
-Simple Contact api to prefrom CRUD operation(Create,read,update,delete) by using `node.js`, `express.js` and `monogoDB`
+Simple Contact API to perform CRUD operation(Create, read, update, delete) by using `node.js`, `express.js`, and `MongoDB`
 
 ## Get Request 
 ```
 GET https://localhost:8000/api/contact
 ```
 
-Api Response:
+API Response:
 ```javascript
 {
   "success": true,
@@ -35,13 +35,13 @@ Body
 ```javascript
 
 {
-    name : "Sachin Kumar",
-    email : "your_email",
-    phone : "your phone Number"
+    name: "Sachin Kumar",
+    email: "your_email",
+    phone: "your phone Number"
 }
 ```
 
-Api Response:
+API Response:
 ```javascript
 {
   "message": "Contact created successfully"
@@ -56,9 +56,9 @@ PUT http://localhost:8000/api/contact/:id
 body
 ```javascript
 {
-    name : "Sachin Kumar",
-    email : "your_email",
-    phone : "your phone Number"
+    name: "Sachin Kumar",
+    email: "your_email",
+    phone: "your phone Number"
 }
 ```
 
@@ -88,7 +88,7 @@ Api Response
 GET http://localhost:8000/api/contact/id
 ```
 
-Api Response:
+API Response:
 ```javascript
 {
   "success": true,
